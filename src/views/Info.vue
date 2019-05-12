@@ -10,7 +10,7 @@
         name:"Info",
         methods:{
             store,
-            add(){
+            add(){   
                 console.log('add Event from info')
                 store.commit('increase')    
             }
